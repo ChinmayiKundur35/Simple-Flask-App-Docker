@@ -8,7 +8,7 @@ spec:
   type: NodePort
   ports:
     - port: 5000
-      targetPort: 5000
+      targetPort: 5070
       protocol: TCP
         # Expose the service on a specific port, replace with a desired port if needed
   selector:
