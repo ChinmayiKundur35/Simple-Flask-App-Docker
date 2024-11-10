@@ -13,7 +13,7 @@ spec:
         app: pythonweb
     spec:
       containers:
-        - name: pythonweb
+        - name: pythonflask
           image: chinmayir/python_flask:v1
           ports:
             - containerPort: 5000
