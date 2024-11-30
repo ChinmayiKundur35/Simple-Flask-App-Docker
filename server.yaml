@@ -8,8 +8,8 @@ spec:
   type: NodePort
   ports:
     - port: 5000
-      targetPort: 5070
+      targetPort: 5000
       protocol: TCP
-        # Expose the service on a specific port, replace with a desired port if needed
+      nodePort: 30001  # Expose the service on a specific port, replace with a desired port if needed
   selector:
     app: pythonweb
